@@ -59,6 +59,3 @@ val get_defaults : unit -> config
 
 val configure : config -> unit
   [@@js.global "cordova.plugins.backgroundMode.configure"]
-
-val log : string -> unit
-  [@@js.global "console.log"]
