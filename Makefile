@@ -7,7 +7,7 @@ all:
 	ocamlfind ocamlc -a -package gen_js_api.ppx -o $(NAME).cma $(NAME).cmo
 
 install: all
-	ocamlfind install ocaml-cordova-plugin-background-mode META *.cma *.cmi
+	ocamlfind install cordova-plugin-background-mode META *.cma *.cmi
 
 mrproper:
 	rm -rf maps *.cmi *.cmo *.cma
