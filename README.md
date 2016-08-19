@@ -1,7 +1,5 @@
 # OCaml-cordova-plugin-background-mode
 
-This is a binding to the cordova plugin:
-
 Binding to
 [cordova-plugin-background-mode](https://github.com/katzer/cordova-plugin-background-mode)
 
